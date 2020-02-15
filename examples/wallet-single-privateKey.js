@@ -24,7 +24,6 @@ const start = async () => {
     const rawtx = account.createTransaction({
       recipient: address,
       satoshis: balance - 10000,
-      isInstantSend: true,
     });
     console.log(rawtx);
 
